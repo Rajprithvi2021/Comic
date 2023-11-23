@@ -1,0 +1,96 @@
+.input{
+    height: 74vh;
+    /* width: 75vw; */
+    border: solid black;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family:'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    background-image: url(assests/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#gallery{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(assests/13.jpg);
+}
+.box{
+    height: 512px;
+    width:512px;
+    border: solid black;
+    
+}
+#btn{
+    width: 30%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    top: 2rem;
+    /* display: block; */
+}
+
+.head{
+    height: 13vh;
+    /* width: 100vw; */
+    border: solid black;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    background-image: url(assests/5747802.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot{
+    height: 13vh;
+    /* width: 100vw; */
+    border: solid black;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: var(--title);
+    font-weight: bold;
+    font-size: 30px;
+    background-image: url(assests/5747802.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.entry{
+   position: relative;
+   width: 99%;
+   padding: 10px;
+   background:transparent;
+   border-radius: 5px;
+   outline: none;
+   color: #fff;
+   font-size: 1em;
+   pointer-events: none;
+
+}
+input::placeholder{
+    background-color: #c4cbd1;
+    color: black;
+}
