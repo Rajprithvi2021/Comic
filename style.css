@@ -94,3 +94,34 @@ input::placeholder{
     background-color: #c4cbd1;
     color: black;
 }
+@media screen and (max-width: 600px)
+{
+    entry{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    foot{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    head{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    btn{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    box{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    gallery{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    input{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
